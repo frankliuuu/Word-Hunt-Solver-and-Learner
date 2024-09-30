@@ -1,4 +1,4 @@
-# # Word Hunt Solver
+## Word Hunt Solver
 This is a web application that helps users improve their skills at the game Pigeon's Word Hunt while learning new words along the way! The application allows you to input letters into a 4x4 grid, find all possible valid words, and display the definitions and paths of those words.
 
 # Features
