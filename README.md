@@ -1,7 +1,7 @@
-## Word Hunt Solver
+# Word Hunt Solver
 This is a web application that helps users improve their skills at the game Pigeon's Word Hunt while learning new words along the way! The application allows you to input letters into a 4x4 grid, find all possible valid words, and display the definitions and paths of those words.
 
-# Features
+## Features
 4x4 Letter Grid: Input letters into a 4x4 grid to form potential words.
 Word Finding: Finds all valid words based on the inputted letters.
 Word Definitions: Hover over the words to see their definitions and the path they follow on the grid.
@@ -9,11 +9,11 @@ Path Visualization: Highlight the positions on the grid where each word is found
 Purpose
 The goal of this project is to help players get better at Pigeon's Word Hunt by showing possible words and allowing them to learn new words with ease by seeing their definitions.
 
-# Demo
+## Demo
 
 (Replace the above line with an actual path to a screenshot or gif of your app)
 
-# How to Use
+## How to Use
 Clone or download this repository.
 
 Install all required dependencies:
@@ -33,11 +33,11 @@ python -m src.backend.app
 
 Open your browser and go to http://localhost:3000 to access the app.
 
-# How to play:
+## How to play:
 
 Input letters into the 4x4 grid.
 Press Solve to find all valid words.
 Hover over any word to highlight the path on the grid and view the word's definition.
 
-# Credits 
+## Credits 
 dictionary.json from https://github.com/matthewreagan/WebstersEnglishDictionary
