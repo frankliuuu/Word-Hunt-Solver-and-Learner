@@ -29,7 +29,7 @@ export const Solutions = ({ solutions, setHighlightedPositions }) => {
             onMouseLeave={handleMouseLeave}
             className={styles.item}
           >
-            <strong>{word}</strong> (Length: {length})
+            <strong>{word}</strong> <br /> (Length: {length})
           </div>
         );
       }

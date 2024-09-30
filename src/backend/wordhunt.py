@@ -42,7 +42,7 @@ class Wordhunt:
         Makes Trie word dictionary from JSON file
         """
 
-        with open("./src/backend/words_dictionary.json", "r", encoding="utf-8") as file:
+        with open("./src/backend/dictionary.json", "r", encoding="utf-8") as file:
             words_dict = json.load(file)
             t = trie.Trie()
             for word in words_dict.keys():
@@ -53,7 +53,7 @@ class Wordhunt:
         """
         Load definitions from JSON file
         """
-        with open("./src/backend/words_dictionary.json", "r", encoding="utf-8") as file:
+        with open("./src/backend/dictionary.json", "r", encoding="utf-8") as file:
             word_definitions = json.load(file)
         return word_definitions
 
