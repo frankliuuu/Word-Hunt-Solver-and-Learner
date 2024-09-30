@@ -1,5 +1,5 @@
 # Word Hunt Solver
-This is a web application that helps users improve their skills at the GamePigeon's Word Hunt while learning new words along the way! The application allows you to input letters into a 4x4 grid, find all possible valid words, and display the definitions and paths of those words.
+This is a web application developed with React and Flask that helps users improve their skills at the GamePigeon's Word Hunt while learning new words along the way! The application allows you to input letters into a 4x4 grid, find all possible valid words, and display the definitions and paths of those words.
 
 ## Features
 4x4 Letter Grid: Input letters into a 4x4 grid to form potential words.
@@ -11,7 +11,7 @@ The goal of this project is to help players get better at Pigeon's Word Hunt by 
 
 ## Demo
 
-(Replace the above line with an actual path to a screenshot or gif of your app)
+![](https://github.com/frankliuuu/Word-Hunt-Solver-and-Learner/blob/main/wh_demo.gif)
 
 ## How to Use
 Clone or download this repository.
