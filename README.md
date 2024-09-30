@@ -6,7 +6,8 @@ This is a web application developed with React and Flask that helps users improv
 Word Finding: Finds all valid words based on the inputted letters.
 Word Definitions: Hover over the words to see their definitions and the path they follow on the grid.
 Path Visualization: Highlight the positions on the grid where each word is found.
-Purpose
+
+## Purpose
 The goal of this project is to help players get better at Pigeon's Word Hunt by showing possible words and allowing them to learn new words with ease by seeing their definitions.
 
 ## Demo
