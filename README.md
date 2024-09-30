@@ -1,12 +1,43 @@
-<<<<<<< HEAD
-# Word-Hunt-Solver-and-Learner
-=======
-# React + Vite
+# # Word Hunt Solver
+This is a web application that helps users improve their skills at the game Pigeon's Word Hunt while learning new words along the way! The application allows you to input letters into a 4x4 grid, find all possible valid words, and display the definitions and paths of those words.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+4x4 Letter Grid: Input letters into a 4x4 grid to form potential words.
+Word Finding: Finds all valid words based on the inputted letters.
+Word Definitions: Hover over the words to see their definitions and the path they follow on the grid.
+Path Visualization: Highlight the positions on the grid where each word is found.
+Purpose
+The goal of this project is to help players get better at Pigeon's Word Hunt by showing possible words and allowing them to learn new words with ease by seeing their definitions.
 
-Currently, two official plugins are available:
+# Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> master
+(Replace the above line with an actual path to a screenshot or gif of your app)
+
+# How to Use
+Clone or download this repository.
+
+Install all required dependencies:
+
+npm install
+
+To start the application, run the following commands in separate terminals:
+
+Start the frontend:
+
+npm run dev
+
+Start the backend:
+
+
+python -m src.backend.app
+
+Open your browser and go to http://localhost:3000 to access the app.
+
+# How to play:
+
+Input letters into the 4x4 grid.
+Press Solve to find all valid words.
+Hover over any word to highlight the path on the grid and view the word's definition.
+
+# Credits 
+dictionary.json from https://github.com/matthewreagan/WebstersEnglishDictionary
