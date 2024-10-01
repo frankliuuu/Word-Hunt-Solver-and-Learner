@@ -19,18 +19,18 @@ Clone or download this repository.
 
 Install all required dependencies:
 
-npm install
+`npm install`
 
 To start the application, run the following commands in separate terminals:
 
 Start the frontend:
 
-npm run dev
+`npm run dev`
 
 Start the backend:
 
 
-python -m src.backend.app
+`python -m src.backend.app`
 
 Open your browser and go to http://localhost:3000 to access the app.
 
